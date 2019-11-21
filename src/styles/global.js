@@ -13,8 +13,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #353940;
-    color: #fff;
+    background: #222;
+    color: #eee;
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;

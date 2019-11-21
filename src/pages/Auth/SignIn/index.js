@@ -37,7 +37,7 @@ class SignIn extends Component {
     return (
       <Container>
         <SignForm onSubmit={this.handleSubmit}>
-          <h1>Wellcome</h1>
+          <h1>Welcome</h1>
 
           <span>Email</span>
           <input type="email" name="email" value={email} onChange={this.handleInputChange} />

@@ -17,10 +17,10 @@ const sizes = {
 
 const colors = {
   default: css`
-    background: #7289da;
+    background: #3b9eff;
 
     &:hover {
-      background: #5f73bc;
+      background: #3b9eff;
     }
   `,
 
@@ -47,7 +47,7 @@ const Button = styled.button.attrs({
 })`
   border-radius: 3px;
   transition: background-color 0.15s ease;
-  background: #7289da;
+  background: #3b9eff;
   border: 0;
   color: #fff;
   font-size: 12px;

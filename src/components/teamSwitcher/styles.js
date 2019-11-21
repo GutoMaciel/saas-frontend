@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.aside`
-  background: #222;
+  background: #111;
   padding: 20px 10px;
 
   display: flex;
@@ -46,5 +46,21 @@ export const NewTeam = styled.button`
   &:hover {
     border: 1px dashed rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+  }
+`;
+
+export const Logout = styled.button`
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px dashed #e04848;
+  background: transparent;
+  color: #e04848;
+  font-weight: bold;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: #a43d3d;
+    color: #a43d3d;
   }
 `;

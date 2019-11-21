@@ -31,6 +31,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    
     > span {
     color: #b9bbbe;
     font-size: 14px;
@@ -51,7 +52,7 @@ export const Content = styled.div`
     font-size: 16px;
 
     &:focus {
-      border-color: #7289da;
+      border-color: #3b9eff;
     }
   }
 

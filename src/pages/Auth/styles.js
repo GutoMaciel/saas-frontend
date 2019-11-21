@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
   flex: 1;
   height: 100%;
-  background: #202225;
+  background: #222;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
 export const SignForm = styled.form`
-  background: #36393f;
+  background: #333;
   border-radius: 5px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   padding: 40px;
@@ -27,7 +27,7 @@ export const SignForm = styled.form`
   }
 
   span {
-    color: #b9bbbe;
+    color: #999;
     font-size: 14px;
     line-height: 16px;
     font-weight: 600;
@@ -46,7 +46,7 @@ export const SignForm = styled.form`
     font-size: 16px;
 
     &:focus {
-      border-color: #7289da;
+      border-color: #3b9eff;
     }
   }
 
